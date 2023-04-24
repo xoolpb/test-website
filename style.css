@@ -57,16 +57,30 @@ a:hover, a:active {
 /*--------------------------------*/
 
 .menu-list {
-    margin: 1em;
-    min-width: 6rem;
-    max-width: 6rem;
+    margin-top: 0.5em;
     border-bottom: 1px solid #7F00FF;
     margin-bottom: 50px;
+    display: flex;
+    /* flex */
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
+
+.menu-list-links {
+    margin-left: 0.5em;
+}
+
+.menu-list-logo {
+    margin-right: 0.5em;
+}
+
+/*--------------------------------*/
+
 
 .menu-blog-heading {
     color: white;
     font-size: 14px;
+    padding: 2px;
     text-align: center;
     border-bottom: 1px solid darkgray;
     background-color: var(--colorBackgroundLight);
@@ -83,7 +97,8 @@ a:hover, a:active {
 }
 
 .menu-blog-text {
-    text-align: justify; 
+    text-align: justify;
+    padding: 0px 5px 0px 5px;
 }
 
 
@@ -101,8 +116,8 @@ a:hover, a:active {
 
 
 .menu-blog {
-    margin-left: 0.5em;
     margin-bottom: 0.5em;
+    width: 30.5em;
     max-width: 30.5em;
     overflow: auto;
 }
@@ -111,7 +126,6 @@ a:hover, a:active {
 
 
 .menu-blog2 {
-    margin-left: 0.5em;
     margin-bottom: 0.5em;
     width: 30.5em;
     max-width: 30.5em;
@@ -120,11 +134,15 @@ a:hover, a:active {
 
 .menu-blog2-part1 {
     margin-bottom: 0.5em;
+    padding: 0px 5px 0px 5px;
 }
 
 .menu-blog2-part2 {
     margin-bottom: 0.5em;
+    padding: 0px 5px 0px 5px;
 }
+
+
 
 .menu-blog2-text {
     color: #fff;
@@ -151,8 +169,10 @@ a:hover, a:active {
 
 .flex-box {
     display: flex;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     flex-flow: row wrap;
-    gap: 15px;
+    gap: 0.5em;
 }
 
 
