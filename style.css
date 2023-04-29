@@ -1,5 +1,5 @@
 :root {
-    --colorBackgroundDark: black;
+    --colorBackgroundDark: #060606;
     --colorBackgroundLight: #111111;
     --colorPalette1: #ffffffcc;
     --colorMenu: #101010;
@@ -14,10 +14,10 @@
     --colorYoutubeLighter: #ff0000;
     --colorSpotify: #1DB954;
     --colorSpotifyLighter: #1fca5b;
-    --colorGithub: #cccccc;
-    --colorGithubLighter: #e5e5e5;
-    --colorNamemc: #cfcfcf;
-    --colorNamemcLighter: #e7e7e7;
+    --colorGithub: #999999;
+    --colorGithubLighter: #b2b2b2;
+    --colorNamemc: #cccccc;
+    --colorNamemcLighter: #e5e5e5;
     --colorOsu: #f062a1;
     --colorOsuLighter: #ff87c6;
 
