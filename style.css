@@ -1,10 +1,29 @@
 :root {
     --colorBackgroundDark: black;
     --colorBackgroundLight: #111111;
-    --colorOutline: #333333;
     --colorPalette1: #ffffffcc;
+    --colorMenu: #101010;
+    /* Links in "main-list" */
     --colorDiscord: #5865F2;
+    --colorDiscordLighter: #7289da;
     --colorInstagram: #e1306c;
+    --colorInstagramLighter: #e86390;
+    --colorTwitch: #6441A5;
+    --colorTwitchLighter: #B9A3E3;
+    --colorYoutube: #ce0000;
+    --colorYoutubeLighter: #ff0000;
+    --colorSpotify: #1DB954;
+    --colorSpotifyLighter: #1fca5b;
+    --colorGithub: #cccccc;
+    --colorGithubLighter: #e5e5e5;
+    --colorNamemc: #cfcfcf;
+    --colorNamemcLighter: #e7e7e7;
+    --colorOsu: #f062a1;
+    --colorOsuLighter: #ff87c6;
+
+    --colorBorder: #7F00FF;
+    --colorOutline: #5900b3;
+
 }
 
 * {
@@ -25,12 +44,9 @@ a.discord-link {
 }
 
 a.discord-link:hover, a.discord-link:active {
-    color: #7289da;
-    text-decoration: underline;
+    color: var(--colorDiscordLighter);
+    font-weight: bold;
 }
-
-
-
 
 
 a.instagram-link {
@@ -40,39 +56,115 @@ a.instagram-link {
 }
 
 a.instagram-link:hover, a.instagram-link:active {
-    color: #e86390;
-    text-decoration: underline;
+    color: var(--colorInstagramLighter);
+    font-weight: bold;
 }
 
-a {
+
+a.twitch-link {
+    color: var(--colorTwitch);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.twitch-link:hover, a.twitch-link:active {
+    color: var(--colorTwitchLighter);
+    font-weight: bold;
+}
+
+
+a.youtube-link {
+    color: var(--colorYoutube);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.youtube-link:hover, a.youtube-link:active {
+    color: var(--colorYoutubeLighter);
+    font-weight: bold;
+}
+
+
+a.spotify-link {
+    color: var(--colorSpotify);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.spotify-link:hover, a.spotify-link:active {
+    color: var(--colorSpotifyLighter);
+    font-weight: bold;
+}
+
+
+a.github-link {
+    color: var(--colorGithub);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.github-link:hover, a.github-link:active {
+    color: var(--colorGithubLighter);
+    font-weight: bold;
+}
+
+
+a.namemc-link {
+    color: var(--colorNamemc);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.namemc-link:hover, a.namemc-link:active {
+    color: var(--colorNamemcLighter);
+    font-weight: bold;
+}
+
+
+a.osu-link {
+    color: var(--colorOsu);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+a.osu-link:hover, a.osu-link:active {
+    color: var(--colorOsuLighter);
+    font-weight: bold;
+}
+
+
+.extra-link {
     color: #ffc0cb;
     text-decoration: none;
 }
 
-a:hover, a:active {
+.extra-link:hover, .extra-link:active {
     color: #ffd4db;
     text-decoration: underline;
 }
 
+
 /*--------------------------------*/
 
 .menu-list {
-    margin-top: 0.5em;
-    border-bottom: 1px solid #7F00FF;
+    padding-top: 0.5em;
+    border-bottom: 1px solid var(--colorBorder);
     margin-bottom: 50px;
-    display: flex;
-    /* flex */
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    background-color: var(--colorMenu);
 }
 
 .menu-list-links {
-    margin-left: 0.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.5em;
+    background-color: var(--colorMenu);
 }
 
-.menu-list-logo {
-    margin-right: 0.5em;
+.menu-list-links-box > a{
+    background-color: var(--colorMenu);
 }
+
 
 /*--------------------------------*/
 
@@ -178,8 +270,8 @@ a:hover, a:active {
 
 
 .flex-border {
-    border: 1px solid #7F00FF;
-    outline: 1px solid #5900b3;
+    border: 1px solid var(--colorBorder);
+    outline: 1px solid var(--colorOutline);
     border-radius: 5px;
 }
 
