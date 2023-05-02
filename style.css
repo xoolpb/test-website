@@ -26,7 +26,7 @@ footer {
 }
 
 footer > span {
-    background: white;
+    background: #ffc0cb;
     text-shadow: 1px 1px 10px black;
     font-weight: bold;
     -webkit-background-clip: text;
