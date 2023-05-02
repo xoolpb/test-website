@@ -1,38 +1,57 @@
-:root {
-    --colorBackgroundDark: #060606;
-    --colorBackgroundLight: #111111;
-    --colorPalette1: #ffffffcc;
-    --colorMenu: #101010;
-    /* Links in "main-list" */
-    --colorDiscord: #5865F2;
-    --colorDiscordLighter: #7289da;
-    --colorInstagram: #e1306c;
-    --colorInstagramLighter: #e86390;
-    --colorTwitch: #6441A5;
-    --colorTwitchLighter: #B9A3E3;
-    --colorYoutube: #ce0000;
-    --colorYoutubeLighter: #ff0000;
-    --colorSpotify: #1DB954;
-    --colorSpotifyLighter: #1fca5b;
-    --colorGithub: #999999;
-    --colorGithubLighter: #b2b2b2;
-    --colorNamemc: #cccccc;
-    --colorNamemcLighter: #e5e5e5;
-    --colorOsu: #f062a1;
-    --colorOsuLighter: #ff87c6;
-
-    --colorBorder: #7F00FF;
-    --colorOutline: #5900b3;
-
-}
-
 * {
     margin: 0;
-    font-family: monospace;
-    background-color: var(--colorBackgroundDark);
+
     color: var(--colorPalette1);
     text-shadow: 1px 1px 5px #555555;
-    font-size: 102%;
+    font-size: 16px;
+    transition: 200ms;
+}
+
+header {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid var(--colorBorder);
+    background-color: var(--colorHeader);
+}
+
+
+
+
+footer {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-top: 1px solid var(--colorBorder);
+    text-align: center;
+    background-color: var(--colorFooter);
+}
+
+footer > span {
+    background: linear-gradient(to right,#ffc0cb, #ff99ab);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-color: var(--colorBGBody);
+}
+
+main {
+    padding: var(--mainPadding);
+    /* background-color: white; /* debug */
+    padding-bottom: 10em; /* temp */
+}
+
+.header-list-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.5em;
+    background-color: var(--colorHeader);
+}
+
+.header-list-links-box > a{
+    background-color: var(--colorHeader);
 }
 
 
@@ -146,30 +165,8 @@ a.osu-link:hover, a.osu-link:active {
 
 /*--------------------------------*/
 
-.menu-list {
-    padding-top: 0.5em;
-    border-bottom: 1px solid var(--colorBorder);
-    margin-bottom: 50px;
-    background-color: var(--colorMenu);
-}
 
-.menu-list-links {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 0.5em;
-    background-color: var(--colorMenu);
-}
-
-.menu-list-links-box > a{
-    background-color: var(--colorMenu);
-}
-
-
-/*--------------------------------*/
-
-
-.menu-blog-heading {
+.heading {
     color: white;
     font-size: 14px;
     padding: 2px;
@@ -178,19 +175,10 @@ a.osu-link:hover, a.osu-link:active {
     background-color: var(--colorBackgroundLight);
 }
 
-.menu-blog-heading-under {
-    color: white;
-    font-size: 14px;
-    text-align: center;
-    border-bottom: 1px solid darkgray;
-    border-radius: 0.5em;
-    background-color: var(--colorBackgroundLight);
-    margin-top: 5px;
-}
 
 .menu-blog-text {
     text-align: justify;
-    padding: 0px 5px 0px 5px;
+    padding: 0em 0.5em;
 }
 
 

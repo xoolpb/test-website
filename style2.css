@@ -1,12 +1,7 @@
-* {
-    font-family: monospace;
-}
-
 body {
     background-color: black;
     color: white;
     margin: 0px;
-    
 }
 
 pre {
@@ -42,7 +37,7 @@ a:hover, a:active {
 
 
 
-.banner-heading {
+.header-heading {
     color: white;
     text-align: center;
     margin: 0px;
@@ -50,12 +45,13 @@ a:hover, a:active {
     font-size: 14px;
 }
 
-.banner {
-    background-color: #111111;
-    border-bottom: 1px solid darkgray;
+.header {
+    background-color: var(--colorHeader);
     padding: 5px 0px 2px 0px;
+    border-bottom: 1px solid var(--colorBorder);
 }
 
-.banner-button {
+.header-button {
     color:#ffc0cb;
 }
+

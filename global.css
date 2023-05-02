@@ -1,0 +1,33 @@
+:root {
+    --colorBGBody: #060606;
+    --colorBackgroundLight: #111111;
+    --colorPalette1: #ffffffcc;
+    --colorHeader: #101010;
+    --colorFooter: #101010;
+    /* Links in "main-list" */
+    --colorDiscord: #5865F2;
+    --colorDiscordLighter: #7289da;
+    --colorInstagram: #e1306c;
+    --colorInstagramLighter: #e86390;
+    --colorTwitch: #6441A5;
+    --colorTwitchLighter: #B9A3E3;
+    --colorYoutube: #ce0000;
+    --colorYoutubeLighter: #ff0000;
+    --colorSpotify: #1DB954;
+    --colorSpotifyLighter: #1fca5b;
+    --colorGithub: #999999;
+    --colorGithubLighter: #b2b2b2;
+    --colorNamemc: #cccccc;
+    --colorNamemcLighter: #e5e5e5;
+    --colorOsu: #f062a1;
+    --colorOsuLighter: #ff87c6;
+
+    --colorBorder: #7F00FF;
+    --colorOutline: #5900b3;
+
+    --mainPadding: 4em 0em;
+}
+
+* {
+    font-family: monospace;
+}
