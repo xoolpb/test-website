@@ -26,7 +26,8 @@ footer {
 }
 
 footer > span {
-    background: linear-gradient(to right,#ffc0cb, #ff99ab);
+    background: white;
+    text-shadow: 1px 1px 10px black;
     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
