@@ -45,20 +45,8 @@ main {
 }
 
 .header-name-text {
-    background-image: linear-gradient(45deg,
-    #d04b36 0%,
-    #d04b36 16.6666%, 
-    #e36511 16.6666%, 
-    #e36511 33.3333%, 
-    #ffba00 33.3333%, 
-    #ffba00 50%,
-    #00b180 50%,
-    #00b180 66.6666%,
-    #147aab 66.6666%,
-    #147aab 83.3333%,
-    #675997 83.3333%,
-    #675997 100%
-    );
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: none;
