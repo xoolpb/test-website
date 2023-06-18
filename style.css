@@ -5,7 +5,10 @@
     text-shadow: 1px 1px 5px #555555;
     font-size: 15px;
     transition: 200ms;
+    box-sizing: border-box;
 }
+
+/* HEADER FOOTER MAIN STUFF --------------------------------*/
 
 header {
     padding-top: 0.5em;
@@ -13,8 +16,6 @@ header {
     border-bottom: 1px solid var(--colorBorder);
     background-color: var(--colorHeader);
 }
-
-
 
 
 footer {
@@ -27,8 +28,8 @@ footer {
 
 
 footer > span {
-    background: #ffc0cb;
-    text-shadow: 1px 1px 10px black;
+    background: white;
+    text-shadow: none;
     font-weight: bold;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,7 +47,21 @@ main {
 
 .header-name-text {
     background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);    
+    background-image: linear-gradient(
+        62deg,
+        #d04b36 0%,
+        #d04b36 16.6666%,
+        #e36511 16.6666%,
+        #e36511 33.333%,
+        #ffba00 33.333%,
+        #ffba00 50%,
+        #00b180 50%,
+        #00b180 66.6666%,
+        #147aab 66.6666%,
+        #147aab 83.3333%,
+        #675997 83.3333%,
+        #675997 100%
+      );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: none;
@@ -65,9 +80,6 @@ main {
     background-color: var(--colorHeader);
 }
 
-.header-list-links-box > a{
-    background-color: var(--colorHeader);
-}
 
 
 /*--------------------------------*/
@@ -170,6 +182,7 @@ a.osu-link:hover, a.osu-link:active {
 .extra-link {
     color: #ffc0cb;
     text-decoration: none;
+    font-size: 13px;
 }
 
 .extra-link:hover, .extra-link:active {
@@ -177,6 +190,9 @@ a.osu-link:hover, a.osu-link:active {
     text-decoration: underline;
 }
 
+.extra-description {
+    font-size:12px;
+}
 
 /*--------------------------------*/
 
@@ -186,8 +202,8 @@ a.osu-link:hover, a.osu-link:active {
     font-size: 14px;
     padding: 2px;
     text-align: center;
-    border-bottom: 1px solid darkgray;
-    background-color: var(--colorBackgroundLight);
+    border-bottom: 1px solid var(--colorHeadingBorder);
+    background-color: var(--colorHeading);
 }
 
 
@@ -198,15 +214,15 @@ a.osu-link:hover, a.osu-link:active {
 
 
 .menu-blog-part1 {
-    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .menu-blog-part2 {
-    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .menu-blog-part3 {
-    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 
@@ -229,12 +245,12 @@ a.osu-link:hover, a.osu-link:active {
 
 .menu-blog2-part1 {
     margin-bottom: 0.5em;
-    padding: 0px 5px 0px 5px;
+    padding: 1px 5px 0px 5px;
 }
 
 .menu-blog2-part2 {
     margin-bottom: 0.5em;
-    padding: 0px 5px 0px 5px;
+    padding: 1px 5px 0px 5px;
 }
 
 
@@ -249,7 +265,6 @@ a.osu-link:hover, a.osu-link:active {
 }
 
 .menu-blog2-heading {
-    margin-top: 1em;
     text-align: center;
     color: #fff;
 }
@@ -268,7 +283,8 @@ a.osu-link:hover, a.osu-link:active {
     margin-right: 0.5em;
     flex-flow: row wrap;
     gap: 0.5em;
-    justify-content:center;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 

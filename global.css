@@ -1,9 +1,10 @@
 :root {
     --colorBGBody: #060606;
-    --colorBackgroundLight: #111111;
+    --colorHeading: #111111;
+    --colorHeadingBorder: darkgray;
     --colorPalette1: #ffffffcc;
-    --colorHeader: #101010;
-    --colorFooter: #101010;
+    --colorHeader: #111111;
+    --colorFooter: #111111;
     /* Links in "main-list" */
     --colorDiscord: #5865F2;
     --colorDiscordLighter: #7289da;
