@@ -27,13 +27,12 @@ footer {
 }
 
 
-footer > span {
-    background: white;
+footer > span{
+    color: var(--colorPalette1);
     text-shadow: none;
     font-weight: bold;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
+
 
 body {
     background-color: var(--colorBGBody);
@@ -167,15 +166,27 @@ a.namemc-link:hover, a.namemc-link:active {
 }
 
 
-a.osu-link {
-    color: var(--colorOsu);
+a.forms-link:hover, a.forms-link:active {
+    color: var(--colorFormsLighter);
+    font-weight: bold;
+}
+
+a.forms-link {
+    color: var(--colorForms);
     text-decoration: none;
     text-shadow: 1px 1px 2px #000000;
 }
 
+
 a.osu-link:hover, a.osu-link:active {
     color: var(--colorOsuLighter);
     font-weight: bold;
+}
+
+a.osu-link {
+    color: var(--colorOsu);
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
 }
 
 
@@ -222,7 +233,8 @@ a.osu-link:hover, a.osu-link:active {
 }
 
 .menu-blog-part3 {
-    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 1px 5px 0px 5px;
 }
 
 
@@ -318,4 +330,16 @@ li.palette5 {
 
 li.palette6 {
     color:orangered;
+}
+
+li.palette7 {
+    color: rgb(0, 255, 0);
+}
+
+li.palette8 {
+    color: rgb(255, 165, 0) ;
+}
+
+li.palette9 {
+    color: rgb(255, 0, 0);
 }
