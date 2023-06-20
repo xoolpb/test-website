@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    color: #ffffffcc;
+    font-family: monospace;
+    font-size: 100%;
+}
+
+
+body {
+    background: var(--colorBGBody);
+}
+
+header {
+    padding-top: 0.5em;
+    border-bottom: 1px solid var(--colorBorder);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    background-color: var(--colorHeading);
+}
+
+.header-logo {
+    margin-right: 0.5em;
+}
+
+
+
+.form-container {
+    padding-bottom: 75em;
+}
+
+.form-container-text {
+    background: #202020;
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid var(--colorHeadingBorder);
+}
+
+.form-container-text > h1 {
+    font-size: 20px;
+    margin-bottom: 0.5em; /* 1em in total */
+}
+
+
+.form-container-forms {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    border-radius: 1em;
+    border: 1px solid var(--colorBorder);
+    outline: 1px solid var(--colorOutline);
+    margin: 5px;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    background-color: black;
+}
+
+.form-container-forms > label, .form-container-forms > input, .form-container-forms > textarea {
+    background-color: var(--colorHeading);
+}
+
+
+
+
+
+/* input textarea form */
+.form-container-forms > form > input, .form-container-forms > form > textarea {
+    color: white;
+    border-radius: 7px;
+    border: 1px solid var(--colorBorder);
+    outline: 1px solid var(--colorOutline);
+    background-color: var(--colorHeading);
+    margin-bottom: 1em;
+}
+
+
+/* input label button */
+.form-container-forms > form > label, .form-container-forms > form > input, .form-container-forms > form > button {
+    text-align: center;
+}
+
+
+/* input */
+.form-container-forms > form > input {
+    width: 20em;
+}
+
+/* button */
+.form-container-forms > form > button {
+    padding: 0.5em 2em;
+}
+
+
+.form-container-forms > form > button {
+    color: white;
+    border-radius: 7px;
+    border: 1px solid var(--colorBorder);
+    outline: 1px solid var(--colorOutline);
+    background-color: var(--colorHeading);
+}
+
+/* label */
+.form-container-forms > form > label {
+    margin-bottom: 0.2em;
+}
+
+button {
+    cursor: pointer;
+}
+
+

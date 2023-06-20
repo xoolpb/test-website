@@ -1,7 +1,7 @@
 * {
     margin: 0;
 
-    color: var(--colorPalette1);
+    color: var(--colorText);
     text-shadow: 1px 1px 5px #555555;
     font-size: 15px;
     transition: 200ms;
@@ -18,21 +18,6 @@ header {
 }
 
 
-footer {
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-    border-top: 1px solid var(--colorBorder);
-    text-align: center;
-    background-color: var(--colorFooter);
-}
-
-
-footer > span{
-    color: var(--colorPalette1);
-    text-shadow: none;
-    font-weight: bold;
-}
-
 
 body {
     background-color: var(--colorBGBody);
@@ -41,7 +26,6 @@ body {
 main {
     padding: var(--mainPadding);
     /* background-color: white; /* debug */
-    padding-bottom: 10em; /* temp */
 }
 
 .header-name-text {
@@ -81,129 +65,6 @@ main {
 
 
 
-/*--------------------------------*/
-a.discord-link {
-    color: var(--colorDiscord);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.discord-link:hover, a.discord-link:active {
-    color: var(--colorDiscordLighter);
-    font-weight: bold;
-}
-
-
-a.instagram-link {
-    color: var(--colorInstagram);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.instagram-link:hover, a.instagram-link:active {
-    color: var(--colorInstagramLighter);
-    font-weight: bold;
-}
-
-
-a.twitch-link {
-    color: var(--colorTwitch);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.twitch-link:hover, a.twitch-link:active {
-    color: var(--colorTwitchLighter);
-    font-weight: bold;
-}
-
-
-a.youtube-link {
-    color: var(--colorYoutube);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.youtube-link:hover, a.youtube-link:active {
-    color: var(--colorYoutubeLighter);
-    font-weight: bold;
-}
-
-
-a.spotify-link {
-    color: var(--colorSpotify);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.spotify-link:hover, a.spotify-link:active {
-    color: var(--colorSpotifyLighter);
-    font-weight: bold;
-}
-
-
-a.github-link {
-    color: var(--colorGithub);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.github-link:hover, a.github-link:active {
-    color: var(--colorGithubLighter);
-    font-weight: bold;
-}
-
-
-a.namemc-link {
-    color: var(--colorNamemc);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-a.namemc-link:hover, a.namemc-link:active {
-    color: var(--colorNamemcLighter);
-    font-weight: bold;
-}
-
-
-a.forms-link:hover, a.forms-link:active {
-    color: var(--colorFormsLighter);
-    font-weight: bold;
-}
-
-a.forms-link {
-    color: var(--colorForms);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-
-a.osu-link:hover, a.osu-link:active {
-    color: var(--colorOsuLighter);
-    font-weight: bold;
-}
-
-a.osu-link {
-    color: var(--colorOsu);
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #000000;
-}
-
-
-.extra-link {
-    color: #ffc0cb;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.extra-link:hover, .extra-link:active {
-    color: #ffd4db;
-    text-decoration: underline;
-}
-
-.extra-description {
-    font-size:12px;
-}
 
 /*--------------------------------*/
 

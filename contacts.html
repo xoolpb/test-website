@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktní Formulář</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style-contacts.css">
+    <link rel="icon" type="image/x-icon" href="sources/cat.ico">
+</head>
+<body>
+    <header>
+        <img src="sources/cat_logo.png" width="48px" height="48px" class="header-logo">
+    </header>
+    <main>
+        <div class="form-container">
+            <div class="form-container-text"> 
+                <h1>Kontaktní Formulář</h1>
+                <p>Napište nám informace pohodlně online ať jste kdekoliv. Stačí vyplnit pár kolonek a my se vám    ozveme.</p>
+            </div>
+            <div class="form-container-forms">
+                <form action="/" method="get">
+                    <label for="fname">Jméno</label>
+                    <input type="text" id="fname" name="fname" required autofocus>
+                    <label for="lname">Příjmení</label>
+                    <input type="text" id="lname" name="lname" required>
+                    <label for="tel">Telefon</label>
+                    <input type="number" id="tel" name="tel">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Popište nám, co se stalo (k rychlejšímu řešení se nám budou jakékoliv údaje o platbě, kartě a obchodníkovi)</label>
+                    <textarea id="message" name="message" rows="4" cols="50" placeholder="Zadejte Vaší zprávu." style="resize:vertical;max-height:15em;" minlength="25" required></textarea>
+
+                    <label>Odesláním formuláře souhlasíte se zpracováním osobních údajů, abychom vám mohli napsat nebo zavolat.</label>
+                    <button class="form-button">Odeslat</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>&copy; 2023 xoolshi <a href="index.html" target="_self" class="forms-link">/back</a></span>
+    </footer>
+</body>
+</html>

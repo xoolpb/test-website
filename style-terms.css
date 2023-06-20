@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+pre {
+    margin: 1em;
+    color: #ffffffcc;
+    text-shadow: 2px 2px 5px #666666;
+}
+
+.text-highlight:hover {
+    color:red;
+}
+
+.background {
+    background-image: url(sources/skull_banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #ffd4db;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.header-heading {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    text-shadow: none;
+    font-size: 14px;
+}
+
+.header {
+    background-color: var(--colorHeader);
+    padding: 5px 0px 2px 0px;
+    border-bottom: 1px solid var(--colorBorder);
+}
+
+.header-button {
+    color:#ffc0cb;
+}
+
